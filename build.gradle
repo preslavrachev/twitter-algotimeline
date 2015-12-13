@@ -1,0 +1,19 @@
+group 'com.preslavrachev.soundfeed'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'javax.inject:javax.inject:1'
+    compile("org.springframework.boot:spring-boot-starter-web:1.3.0.RELEASE")
+    compile("com.rometools:rome:1.5.1")
+    compile("org.rometools:rome-modules:1.0")
+    compile("org.apache.velocity:velocity:1.7")
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
