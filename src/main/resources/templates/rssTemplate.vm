@@ -3,5 +3,6 @@
     <script/>
     <channel>
         <title>$channelData.name's Tracks</title>
+        <itunes:image href="$channelData.coverImageUrl"/>
     </channel>
 </rss>

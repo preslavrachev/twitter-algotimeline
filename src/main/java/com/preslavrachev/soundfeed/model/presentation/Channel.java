@@ -15,6 +15,8 @@ public class Channel {
 
     private String description;
 
+    private String coverImageUrl;
+
     private List<Item> items = new ArrayList<>();
 
     public String getName() {
@@ -41,6 +43,14 @@ public class Channel {
         this.description = description;
     }
 
+    public String getCoverImageUrl() {
+        return coverImageUrl;
+    }
+
+    public void setCoverImageUrl(String coverImageUrl) {
+        this.coverImageUrl = coverImageUrl;
+    }
+
     public List<Item> getItems() {
         return items;
     }
@@ -51,11 +61,25 @@ public class Channel {
 
     private Channel(Builder builder) {
         this.name = builder.getName();
+        this.coverImageUrl = builder.getCoverImageUrl();
+    }
+
+    @Override
+    public String toString() {
+        return "Channel{" +
+                "name='" + name + '\'' +
+                ", pubDate=" + pubDate +
+                ", description='" + description + '\'' +
+                ", coverImageUrl='" + coverImageUrl + '\'' +
+                ", items=" + items +
+                '}';
     }
 
     public static class Builder {
 
         private String name;
+
+        private String coverImageUrl;
 
         public String getName() {
             return name;
@@ -64,6 +88,14 @@ public class Channel {
         public Builder setName(String name) {
             this.name = name;
             return this;
+        }
+
+        public String getCoverImageUrl() {
+            return coverImageUrl;
+        }
+
+        public void setCoverImageUrl(String coverImageUrl) {
+            this.coverImageUrl = coverImageUrl;
         }
 
         public Channel build() {

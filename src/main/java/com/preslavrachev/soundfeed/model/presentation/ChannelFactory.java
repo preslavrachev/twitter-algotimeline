@@ -14,6 +14,7 @@ public class ChannelFactory {
 
         final Channel.Builder channelBuilder = new Channel.Builder();
         channelBuilder.setName(StringUtils.isEmpty(user.getFullName()) ? user.getUsername() : user.getFullName());
+        channelBuilder.setCoverImageUrl(user.getAvatarUrl());
 
         return channelBuilder.build();
     }
