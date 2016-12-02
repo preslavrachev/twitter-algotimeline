@@ -1,4 +1,4 @@
-package com.preslavrachev.soundfeed.config;
+package com.preslavrachev.algotimeline.config;
 
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;

@@ -1,11 +1,11 @@
-package com.preslavrachev.soundfeed.json;
+package com.preslavrachev.algotimeline.json;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
-import com.preslavrachev.soundfeed.model.twitter.ExtendedStatus;
+import com.preslavrachev.algotimeline.model.twitter.ExtendedStatus;
 import twitter4j.Status;
 import twitter4j.TwitterException;
 import twitter4j.json.DataObjectFactory;

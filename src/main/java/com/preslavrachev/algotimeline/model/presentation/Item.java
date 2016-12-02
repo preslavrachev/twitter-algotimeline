@@ -1,4 +1,4 @@
-package com.preslavrachev.soundfeed.model.presentation;
+package com.preslavrachev.algotimeline.model.presentation;
 
 /**
  * Created by preslavrachev on 13/12/15.

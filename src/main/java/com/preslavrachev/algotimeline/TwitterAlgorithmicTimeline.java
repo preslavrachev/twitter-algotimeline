@@ -1,8 +1,8 @@
-package com.preslavrachev.soundfeed;
+package com.preslavrachev.algotimeline;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.preslavrachev.soundfeed.model.twitter.ExtendedStatus;
+import com.preslavrachev.algotimeline.model.twitter.ExtendedStatus;
 import org.apache.log4j.Logger;
 import org.elasticsearch.action.index.IndexRequestBuilder;
 import org.elasticsearch.client.Client;

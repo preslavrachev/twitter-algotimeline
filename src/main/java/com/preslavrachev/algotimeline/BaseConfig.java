@@ -1,7 +1,7 @@
-package com.preslavrachev.soundfeed;
+package com.preslavrachev.algotimeline;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.preslavrachev.soundfeed.config.TwitterAPIConfig;
+import com.preslavrachev.algotimeline.config.TwitterAPIConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

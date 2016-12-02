@@ -1,6 +1,6 @@
-package com.preslavrachev.soundfeed.service;
+package com.preslavrachev.algotimeline.service;
 
-import com.preslavrachev.soundfeed.model.presentation.Channel;
+import com.preslavrachev.algotimeline.model.presentation.Channel;
 
 /**
  * Created by preslavrachev on 13/12/15.

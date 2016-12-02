@@ -1,4 +1,4 @@
-package com.preslavrachev.soundfeed.model.presentation;
+package com.preslavrachev.algotimeline.model.presentation;
 
 import java.util.ArrayList;
 import java.util.Date;

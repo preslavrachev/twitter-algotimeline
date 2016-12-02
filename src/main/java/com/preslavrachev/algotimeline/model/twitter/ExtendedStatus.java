@@ -1,7 +1,7 @@
-package com.preslavrachev.soundfeed.model.twitter;
+package com.preslavrachev.algotimeline.model.twitter;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.preslavrachev.soundfeed.json.ExtendedStatusDeserializer;
+import com.preslavrachev.algotimeline.json.ExtendedStatusDeserializer;
 import twitter4j.Status;
 
 import java.time.LocalDate;

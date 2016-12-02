@@ -1,6 +1,6 @@
-package com.preslavrachev.soundfeed.model.presentation;
+package com.preslavrachev.algotimeline.model.presentation;
 
-import com.preslavrachev.soundfeed.model.User;
+import com.preslavrachev.algotimeline.model.User;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 

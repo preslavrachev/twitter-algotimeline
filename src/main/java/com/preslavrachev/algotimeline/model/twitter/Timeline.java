@@ -1,4 +1,4 @@
-package com.preslavrachev.soundfeed.model.twitter;
+package com.preslavrachev.algotimeline.model.twitter;
 
 import java.util.Iterator;
 import java.util.List;

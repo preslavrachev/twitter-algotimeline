@@ -1,4 +1,4 @@
-package com.preslavrachev.soundfeed.model;
+package com.preslavrachev.algotimeline.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

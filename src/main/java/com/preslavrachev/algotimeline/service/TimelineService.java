@@ -1,8 +1,8 @@
-package com.preslavrachev.soundfeed.service;
+package com.preslavrachev.algotimeline.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.preslavrachev.soundfeed.model.twitter.ExtendedStatus;
-import com.preslavrachev.soundfeed.model.twitter.Timeline;
+import com.preslavrachev.algotimeline.model.twitter.ExtendedStatus;
+import com.preslavrachev.algotimeline.model.twitter.Timeline;
 import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.search.sort.SortOrder;

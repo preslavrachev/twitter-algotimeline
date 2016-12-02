@@ -1,4 +1,4 @@
-package com.preslavrachev.soundfeed.config;
+package com.preslavrachev.algotimeline.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

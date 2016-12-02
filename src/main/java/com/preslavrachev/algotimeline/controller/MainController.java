@@ -1,7 +1,7 @@
-package com.preslavrachev.soundfeed.controller;
+package com.preslavrachev.algotimeline.controller;
 
-import com.preslavrachev.soundfeed.model.twitter.Timeline;
-import com.preslavrachev.soundfeed.service.TimelineService;
+import com.preslavrachev.algotimeline.model.twitter.Timeline;
+import com.preslavrachev.algotimeline.service.TimelineService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
