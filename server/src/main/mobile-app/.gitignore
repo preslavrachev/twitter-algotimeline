@@ -1,0 +1,5 @@
+ionic2/node_modules/ionic-framework/node_modules/inquirer/node_modules/run-async/node_modules/once/node_modules/
+www/build/
+platforms/
+plugins/
+.DS_Store

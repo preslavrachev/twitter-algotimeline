@@ -3,4 +3,3 @@
 .idea/*
 build/*
 gradle/wrapper/gradle-wrapper.jar
-src/main/resources/config/application.properties

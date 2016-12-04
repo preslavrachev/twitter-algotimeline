@@ -1,2 +1,3 @@
 rootProject.name = 'algotimeline'
-
+include ':common'
+include ':server'
