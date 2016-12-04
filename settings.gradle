@@ -1,3 +1,4 @@
 rootProject.name = 'algotimeline'
 include ':common'
 include ':server'
+include ':android-app'

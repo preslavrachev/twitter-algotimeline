@@ -1,6 +1,11 @@
 apply plugin: 'java'
 
+//NOTE: Some code in this project still requires the use of Java 1.8 API.
+//targetCompatibility = 1.7
+//sourceCompatibility = 1.7
+
 repositories {
+    jcenter()
     mavenCentral()
 }
 
